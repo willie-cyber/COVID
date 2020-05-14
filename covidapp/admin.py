@@ -13,6 +13,6 @@ class CovidAdmin(admin.ModelAdmin):
 	search_fields = ['name', 'country']
 
 admin.site.register([Covid], CovidAdmin)
-admin.site.site_header = "COVID-19 ONLINE"
+admin.site.site_header = "COVID19 ONLINE"
 admin.site.site_title = "Ingeniería en Sistemas"
 admin.site.index_title = "Universidad Mariano Galvez"
